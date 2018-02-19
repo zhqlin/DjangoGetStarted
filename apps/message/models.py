@@ -9,4 +9,3 @@ class UserMessage(models.Model):
 
     class Meta:
         verbose_name = '用户留言信息'
-        verbose_name_plural = verbose_name
