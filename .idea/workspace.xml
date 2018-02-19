@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d836d16-d83f-453f-8cc4-79de9a59d334" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/message_form.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoGetStarted.iml" afterPath="$PROJECT_DIR$/.idea/DjangoGetStarted.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DjangoGetStarted/settings.py" afterPath="$PROJECT_DIR$/DjangoGetStarted/settings.py" />
-      <change beforePath="$PROJECT_DIR$/DjangoGetStarted/urls.py" afterPath="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +31,7 @@
       <file leaf-file-name="message_form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/message_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="81">
               <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding>
                 <element signature="e#1036#1042#1#HTML" expanded="true" />
@@ -275,6 +260,14 @@
       <option name="presentableId" value="Default" />
       <updated>1519053046168</updated>
     </task>
+    <task id="LOCAL-00001" summary="配置表单页面：&#10;1、把html文件放进来&#10;2、通过简单的url配置来访问html。&#10;3、发现找不到页面，所以我们设置setting中DIRS&#10;4、文件找到了又说找不到静态文件，我们设置了STATICFILES_DIRS">
+      <created>1519056273807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519056273808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,6 +302,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置表单页面：&#10;1、把html文件放进来&#10;2、通过简单的url配置来访问html。&#10;3、发现找不到页面，所以我们设置setting中DIRS&#10;4、文件找到了又说找不到静态文件，我们设置了STATICFILES_DIRS" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置表单页面：&#10;1、把html文件放进来&#10;2、通过简单的url配置来访问html。&#10;3、发现找不到页面，所以我们设置setting中DIRS&#10;4、文件找到了又说找不到静态文件，我们设置了STATICFILES_DIRS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -361,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/message_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="81">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
             <element signature="e#1036#1042#1#HTML" expanded="true" />
