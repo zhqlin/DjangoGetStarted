@@ -19,5 +19,5 @@ from message.views import getform
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('form/', getform),
+    path('form/', getform, name='form_new'),
 ]

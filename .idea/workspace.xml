@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d836d16-d83f-453f-8cc4-79de9a59d334" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/apps/message/migrations/0001_initial.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/message/migrations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/message/models.py" afterPath="$PROJECT_DIR$/apps/message/models.py" />
+      <change beforePath="$PROJECT_DIR$/DjangoGetStarted/urls.py" afterPath="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
       <change beforePath="$PROJECT_DIR$/apps/message/views.py" afterPath="$PROJECT_DIR$/apps/message/views.py" />
       <change beforePath="$PROJECT_DIR$/templates/message_form.html" afterPath="$PROJECT_DIR$/templates/message_form.html" />
     </list>
@@ -24,8 +22,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/message/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="234">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -36,8 +34,18 @@
       <file leaf-file-name="message_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/message_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1057">
-              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoGetStarted/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -62,9 +70,9 @@
       <list>
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/form.html" />
-        <option value="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
         <option value="$PROJECT_DIR$/DjangoGetStarted/settings.py" />
         <option value="$PROJECT_DIR$/apps/message/models.py" />
+        <option value="$PROJECT_DIR$/DjangoGetStarted/urls.py" />
         <option value="$PROJECT_DIR$/templates/message_form.html" />
         <option value="$PROJECT_DIR$/apps/message/views.py" />
       </list>
@@ -289,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519057291626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="django model的增删改数据库。本次内容截止教程3-4。&#10;另外，修复了mysql编码问题导致的中文乱码（macos下在/private/etc下创建my.cnf）&#10;[client]&#10;default-character-set=utf8&#10;&#10;[mysql]&#10;default-character-set=utf8&#10;&#10;[mysqld]&#10;collation-server = utf8_unicode_ci&#10;init-connect='SET NAMES utf8'&#10;character-set-server = utf8">
+      <created>1519062098534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519062098535</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -328,7 +343,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置表单页面：&#10;1、把html文件放进来&#10;2、通过简单的url配置来访问html。&#10;3、发现找不到页面，所以我们设置setting中DIRS&#10;4、文件找到了又说找不到静态文件，我们设置了STATICFILES_DIRS" />
     <MESSAGE value="留言板数据库orm映射成表完成。内容截止教程3-3结束。" />
-    <option name="LAST_COMMIT_MESSAGE" value="留言板数据库orm映射成表完成。内容截止教程3-3结束。" />
+    <MESSAGE value="django model的增删改数据库。本次内容截止教程3-4。&#10;另外，修复了mysql编码问题导致的中文乱码（macos下在/private/etc下创建my.cnf）&#10;[client]&#10;default-character-set=utf8&#10;&#10;[mysql]&#10;default-character-set=utf8&#10;&#10;[mysqld]&#10;collation-server = utf8_unicode_ci&#10;init-connect='SET NAMES utf8'&#10;character-set-server = utf8" />
+    <option name="LAST_COMMIT_MESSAGE" value="django model的增删改数据库。本次内容截止教程3-4。&#10;另外，修复了mysql编码问题导致的中文乱码（macos下在/private/etc下创建my.cnf）&#10;[client]&#10;default-character-set=utf8&#10;&#10;[mysql]&#10;default-character-set=utf8&#10;&#10;[mysqld]&#10;collation-server = utf8_unicode_ci&#10;init-connect='SET NAMES utf8'&#10;character-set-server = utf8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,16 +358,6 @@
         <state relative-caret-position="161">
           <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#640#672#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,18 +491,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoGetStarted/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/message_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="216">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/message/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="234">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
